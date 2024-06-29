@@ -79,8 +79,8 @@ for item in [1, 2, 3]:
 ---
 ### 12. Czego NIE możemy użyć do dodania nowej wartości do listy?
 
-TLDR: add()
-Detailed Answer: To add new values to a list in Python, you can use methods like append(), extend(), or the += operator. The method add() is not applicable to lists; it's used with sets.
+- **TLDR:** add()
+- **Detailed Answer:** To add new values to a list in Python, you can use methods like append(), extend(), or the += operator. The method add() is not applicable to lists; it's used with sets.
 
 ```my_list = [1, 2, 3]
 my_list.append(4)  # Correct
